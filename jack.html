@@ -7,7 +7,7 @@
 Jack is pretty good at things like eating, driving, being friendly, all sorts of stuff!
 <script>
 var count;
-document.getElementByID(submit).onClick(){ 
+document.getElementByID(submit).onClick = function() { 
 	alert(count);
 	count = count++;
 	document.getElementByID(likes).innerHTML = count;
