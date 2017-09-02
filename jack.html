@@ -2,14 +2,13 @@
 <html>
 <head>
 <title>Jack is cool</title>
-<meta author=Jack>
 <body>
 Jack is pretty good at things like eating, driving, being friendly, all sorts of stuff!
 <script>
-var count;
+var count = 0;
 document.getElementByID("submit").onClick = function() { 
 	alert(count);
-	count = count++;
+	count++;
 	document.getElementByID("likes").innerHTML = count;
 }
 </script>
