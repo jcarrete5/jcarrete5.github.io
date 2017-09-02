@@ -9,9 +9,13 @@ Jack is pretty good at things like eating, driving, being friendly, all sorts of
 var count;
 document.getElementByID(submit).onClick(){ 
 	count = count++;
-}
+	document.getElementByID(likes).innerHTML = count;
 </script>
+</br >
 <button id="submit">I agree</button>
 
+<p id="likes">
+</p>
 </body>
+
 </html>
