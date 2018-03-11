@@ -1,9 +1,9 @@
 body {
 	font-family: sans-serif;
+	margin: auto;
+	width: 80%;
 }
 
-#profile-pic {
-	width: 200px;
-	height: 200px;
-	border-radius: 100%;
+body>header {
+	text-align: center;
 }
