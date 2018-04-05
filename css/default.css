@@ -19,11 +19,12 @@ body>header>h1 {
 }
 
 body>header>address {
+	font-style: normal;
 	margin: 0 0 0 10px;
 }
 
 body>footer {
-	text-align: center;
-	font-size: smaller;
 	color: dimgrey;
+	font-size: smaller;
+	text-align: center;
 }
