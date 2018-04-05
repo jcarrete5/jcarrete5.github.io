@@ -1,9 +1,29 @@
 body {
 	font-family: sans-serif;
 	margin: auto;
-	width: 80%;
+}
+
+main {
+	margin: 1.5em auto;
+	width: 60%;
 }
 
 body>header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 2em 0;
+}
+
+body>header>h1 {
+	margin: 0 10px 0 0;
+}
+
+body>header>address {
+	margin: 0 0 0 10px;
+}
+
+body>footer {
 	text-align: center;
+	font-size: smaller;
+	color: dimgrey;
 }
