@@ -20,6 +20,7 @@ body>header>h1 {
 }
 
 body>header>address {
+	align-self: flex-end;
 	font-style: normal;
 	margin: 0 0 0 10px;
 }
