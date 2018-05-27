@@ -2,4 +2,7 @@
 .idea/**/workspace.xml
 
 # Compiled SASS
-css/
+*.css
+
+# MacOS
+.DS_Store
