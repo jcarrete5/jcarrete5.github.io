@@ -1,1 +1,5 @@
-.idea/workspace.xml
+# IntelliJ
+.idea/**/workspace.xml
+
+# Compiled SASS
+css/
