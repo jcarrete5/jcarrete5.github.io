@@ -1,5 +1,5 @@
 @import "normalize";
-@import "theme";
+@import "vars";
 
 body {
   font-family: $primary-font-stack;
@@ -29,16 +29,4 @@ a:hover {
 
 a:active {
   color: $primary-color-accent-light;
-}
-
-// Lists in `nav` element assumed to be lists of navigational links
-nav {
-  ul, ol, dl {
-    list-style-type: none;
-    padding: 0;
-
-    li {
-      display: inline;
-    }
-  }
 }
