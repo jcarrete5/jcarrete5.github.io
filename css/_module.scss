@@ -6,3 +6,13 @@
     display: inline;
   }
 }
+
+.row-section > header:first-child {
+  border-radius: 0.5em;
+  text-align: center;
+  padding: 0.5em 0;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+}
