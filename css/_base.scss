@@ -16,7 +16,7 @@ p {
 }
 
 a {
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 a:link, a:visited {
@@ -29,4 +29,13 @@ a:hover {
 
 a:active {
   color: $primary-color-accent-light;
+}
+
+pre, samp, code, kbd {
+  font-family: Menlo, monospace;
+}
+
+pre {
+  white-space: pre-wrap;
+  margin: 0;
 }

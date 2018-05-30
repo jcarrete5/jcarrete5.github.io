@@ -25,7 +25,7 @@
       <header>
         <h2>Who am I?</h2>
       </header>
-      <p>
+      <p class="indented">
         I am an undergraduate college student studying at Drexel University for a BS in Computer Science.
         I have been programming throughout my years in high school and continue to pursue programming
         as a career. I thoroughly enjoy the challenges that come with solving problems with code.
@@ -36,12 +36,64 @@
       <header>
         <h2>Projects</h2>
       </header>
-      <ul class="horiz-list">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul class="horiz-list wrapping-list">
+        <li class="project-node">
+          <figure>
+            <h3><a href="https://github.com/jcarrete5/hexsweeper">Hexsweeper</a></h3>
+            <figcaption><p>Hexagonal Minesweeper game</p></figcaption>
+            <img src="img/hexsweeper.png" alt="hexsweeper gameplay image">
+          </figure>
+        </li>
+        <li class="project-node">
+          <figure>
+            <h3><a href="https://github.com/jcarrete5/simon-says">Simon Says</a></h3>
+            <figcaption><p>Simon Says implementation for Arduino</p></figcaption>
+            <img src="img/simonsays.png" alt="Simon Says circuit diagram">
+          </figure>
+        </li>
+        <li class="project-node">
+          <figure>
+            <h3><a href="https://github.com/jcarrete5/Tanks">Tanks</a></h3>
+            <figcaption><p>Tank battle game</p></figcaption>
+            <img src="img/tanks.png" alt="Tanks gameplay image">
+          </figure>
+        </li>
+        <li class="project-node">
+          <figure>
+            <h3><a href="https://github.com/jcarrete5/java-rcon">Java RCON Client</a></h3>
+            <figcaption><p>Enables communication through the RCON protocol</p></figcaption>
+            <pre class="code">
+Hostname: <kbd>jsonet.ddns.net</kbd>
+Port (Default: 25575):
+Password: <kbd>**********</kbd>
+[INFO] Connected to jsonet.ddns.net:25575
+[INFO] Authentication successful
+&gt; <kbd>time</kbd>
+Usage: /time &lt;set|add|query&gt; &lt;value&gt;
+&gt; <kbd>time set 0</kbd>
+Set the time to 0</pre>
+          </figure>
+        </li>
+        <li class="project-node">
+          <figure>
+            <h3><a href="https://github.com/jcarrete5/cds">CDS</a></h3>
+            <figcaption><p>A data structures library implemented in C</p></figcaption>
+            <pre class="code">
+typedef struct cds_LinkedNode {
+  struct cds_LinkedNode *prev;
+  struct cds_LinkedNode *next;
+  void *data;
+} cds_LinkedNode;
+
+typedef struct {
+  size_t logicalLength;
+  size_t elementSize;
+  cds_FreeFunction freeFn;
+  cds_LinkedNode *head;
+  cds_LinkedNode *tail;
+} cds_LinkedList;</pre>
+          </figure>
+        </li>
       </ul>
     </section>
   </main>

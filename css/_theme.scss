@@ -1,0 +1,14 @@
+@import "vars";
+
+.project-node {
+  background-color: $primary-color;
+  color: white;
+  box-shadow: 0 1px 4px black;
+  border-radius: 0.5em;
+}
+
+.code {
+  background-color: white;
+  color: black;
+  padding: 8px;
+}
