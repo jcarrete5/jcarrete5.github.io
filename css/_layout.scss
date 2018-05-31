@@ -1,0 +1,29 @@
+#page-header {
+  padding: 1px 8px;
+  margin-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 2px 8px black;
+}
+
+#main-content {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  #main-content {
+    width: 95%;
+  }
+}
+
+#primary-nav {
+  margin: 0.5em 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+}
