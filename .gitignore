@@ -1,5 +1,2 @@
-# IntelliJ
-.idea/**/workspace.xml
-
-# MacOS
+node_modules/
 .DS_Store

@@ -1,0 +1,27 @@
+{
+  "name": "jcarrete5.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "http-server -o -p3000",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public -b master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarrete5/jcarrete5.github.io.git"
+  },
+  "keywords": [],
+  "author": "Jason R. Carrete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcarrete5/jcarrete5.github.io/issues"
+  },
+  "homepage": "https://github.com/jcarrete5/jcarrete5.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {}
+}
