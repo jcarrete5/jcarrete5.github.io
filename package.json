@@ -6,7 +6,7 @@
   "scripts": {
     "start": "http-server -o -p3000",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-css": "node-sass -w --output-style compressed -o public/css -x scss/",
+    "sass": "node-sass -w --output-style compressed -o public/css -x scss/",
     "deploy": "gh-pages -d public -b master"
   },
   "repository": {
