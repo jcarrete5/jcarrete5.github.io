@@ -1,0 +1,23 @@
+@import 'vars';
+
+/* For older IE9+ support */
+address, article, aside, footer, header, hgroup, main, nav, section, figure, figcaption {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: $default-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/*
+ * Block
+ */
+
+.header {
+
+}
