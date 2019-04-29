@@ -2,8 +2,10 @@ $p-color: #d32f2f;
 $p-color-light: #ff6659;
 $p-color-dark: #9a0007;
 $s-color: #424242;
-$p-color-light: #6d6d6d;
-$p-color-dark: #1b1b1b;
+$s-color-light: #6d6d6d;
+$s-color-dark: #1b1b1b;
+$font-color-light: white;
+$font-color-dark: black;
 $default-font: sans-serif;
 
 body {
@@ -15,6 +17,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+em {
+  color: $p-color-light;
+  font-style: normal;
+}
+
 /* Block */
 /*****************************/
 
@@ -22,8 +29,76 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   width: 100vw;
   height: 100vh;
+  color: $font-color-light;
 }
 
 .section {
   flex: 1;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 1em;
+}
+
+.name {
+  font-size: 36pt;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 1em;
+  background-color: rgba($p-color, 0.8);
+}
+
+.para {
+  font-size: 16pt;
+  text-indent: 2em;
+  margin: 50px 40px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $font-color-light;
+  padding: 0.3em;
+  background-color: $p-color;
+  border-radius: 5px;
+  font-size: 18pt;
+  margin: 0.2em;
+  box-shadow: 0 2px 2px $p-color-dark;
+}
+
+.btn:active {
+  background-color: $p-color-dark;
+}
+
+/* Element */
+/*****************************/
+
+.btn__img {
+  width: 32px;
+  height: auto;
+  margin-right: 0.4em;
+}
+
+/* Modifier */
+/*****************************/
+
+.section--img {
+  background: url('/img/code.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section--content {
+  background-color: $s-color-dark;
+}
+
+.btn__img--fa {
+  width: auto;
+  height: auto;
 }
