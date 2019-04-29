@@ -11,6 +11,7 @@ $default-font: sans-serif;
 body {
   margin: 0;
   font-family: $default-font;
+  background-color: $s-color-dark;
 }
 
 h1, h2, h3, h4, h5, h6 {
