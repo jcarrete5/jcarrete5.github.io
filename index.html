@@ -1,100 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Jason R. Carrete">
-  <title>Jason R. Carrete Projects</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason R. Carrete</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
-<body>
-  <header id="page-header">
-    <h1>&lt;&nbsp;Jason&nbsp;R.&nbsp;Carrete&nbsp;&gt;</h1>
-    <nav>
-      <ul id="primary-nav" class="horiz-list">
-        <li><a href="https://github.com/jcarrete5/">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/jason-carrete-89212014a/">LinkedIn</a></li>
-        <li><a href="doc/resume.pdf">Resume</a></li>
-        <li><a href="mailto:jasoncarrete5@gmail.com?subject=Contact%20Request">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main id="main-content">
-    <section id="about" class="row-section">
-      <header>
-        <h2>Who am I?</h2>
-      </header>
-      <p class="indented">
-        I am an undergraduate college student studying at Drexel University for a BS in Computer Science.
-        I have been programming throughout my years in high school and continue to pursue programming
-        as a career. I thoroughly enjoy the challenges that come with solving problems with code.
-        This website outlines some of my favorite projects that I have created or contributed to.
-      </p>
-    </section>
-    <section id="projects" class="row-section">
-      <header>
-        <h2>Projects</h2>
-      </header>
-      <ul class="horiz-list wrapping-list">
-        <li class="project-node">
-          <figure>
-            <h3><a href="https://github.com/jcarrete5/hexsweeper">Hexsweeper</a></h3>
-            <figcaption><p>Hexagonal Minesweeper game</p></figcaption>
-            <img src="img/hexsweeper.png" alt="hexsweeper gameplay image">
-          </figure>
-        </li>
-        <li class="project-node">
-          <figure>
-            <h3><a href="https://github.com/jcarrete5/simon-says">Simon Says</a></h3>
-            <figcaption><p>Simon Says implementation for Arduino</p></figcaption>
-            <img src="img/simonsays.png" alt="Simon Says circuit diagram">
-          </figure>
-        </li>
-        <li class="project-node">
-          <figure>
-            <h3><a href="https://github.com/jcarrete5/Tanks">Tanks</a></h3>
-            <figcaption><p>Tank battle game</p></figcaption>
-            <img src="img/tanks.png" alt="Tanks gameplay image">
-          </figure>
-        </li>
-        <li class="project-node">
-          <figure>
-            <h3><a href="https://github.com/jcarrete5/java-rcon">Java RCON Client</a></h3>
-            <figcaption><p>Enables communication through the RCON protocol</p></figcaption>
-            <pre class="mac-term"><samp>Hostname: <kbd>jsonet.ddns.net</kbd>
-Port (Default: 25575):
-Password: <kbd>**********</kbd>
-[INFO] Connected to jsonet.ddns.net:25575
-[INFO] Authentication successful
-&gt; <kbd>time</kbd>
-Usage: /time &lt;set|add|query&gt; &lt;value&gt;
-&gt; <kbd>time set 0</kbd>
-Set the time to 0</samp></pre>
-          </figure>
-        </li>
-        <li class="project-node">
-          <figure>
-            <h3><a href="https://github.com/jcarrete5/cds">CDS</a></h3>
-            <figcaption><p>A data structures library implemented in C</p></figcaption>
-            <pre class="mac-term"><code>typedef struct cds_LinkedNode {
-  struct cds_LinkedNode *prev;
-  struct cds_LinkedNode *next;
-  void *data;
-} cds_LinkedNode;
-
-typedef struct {
-  size_t logicalLength;
-  size_t elementSize;
-  cds_FreeFunction freeFn;
-  cds_LinkedNode *head;
-  cds_LinkedNode *tail;
-} cds_LinkedList;</code></pre>
-          </figure>
-        </li>
-      </ul>
-    </section>
-  </main>
+<body class="main">
+  <div class="section section--img">
+    <h1 class="name">Jason R. Carrete</h1>
+    <div class="actions">
+      <a class="btn" href="https://github.com/jcarrete5">
+        <img class="btn__img" src="img/gh.png" alt="">
+        GitHub
+      </a>
+      <a class="btn" href="doc/Jason_Resume.pdf">
+        <i class="far fa-file-pdf btn__img btn__img--fa"></i>
+        Resume
+      </a>
+      <a class="btn" href="https://www.linkedin.com/in/jason-carrete">
+        <img class="btn__img" src="img/linkedin.png" alt="">
+        LinkedIn</a>
+      <a class="btn" href="mailto:jasoncarrete5@gmail.com">
+        <i class="far fa-paper-plane btn__img btn__img--fa"></i>
+        jasoncarrete5@gmail.com
+      </a>
+    </div>
+  </div>
+  <div class="section section--content">
+    <p class="para">I'm <em>Jason R. Carrete</em>: An undergraduate student studying at Drexel University for a BS in Computer Science. I enjoy solving problems with code. I primarily focus on <em>systems programming</em> but also have experience designing websites and games as well as maintaining servers and network infrastructures.</p>
+  </div>
 </body>
 </html>
