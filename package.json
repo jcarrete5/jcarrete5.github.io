@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "http-server -o -p3000",
+    "start": "python3 -m http.server -d public",
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w --output-style compressed -o public/css -x scss/",
     "deploy": "gh-pages -d public -b master"
@@ -21,9 +21,8 @@
   },
   "homepage": "https://github.com/jcarrete5/jcarrete5.github.io#readme",
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "http-server": "^0.11.1",
-    "node-sass": "^4.12.0"
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1"
   },
   "dependencies": {}
 }
