@@ -14,11 +14,16 @@ body {
   background-color: $s-color-dark;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
-em {
+.para em {
   color: $p-color-light;
   font-style: normal;
 }
@@ -32,7 +37,7 @@ em {
   color: $font-color-light;
 }
 
-.section {
+.partition {
   flex: 1;
 }
 
@@ -90,23 +95,33 @@ em {
 /* Modifier */
 /*****************************/
 
-.section--img {
-  background: url('/img/code.jpg');
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.section--content {
-  background-color: $s-color-dark;
+.btn--no-select {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .btn__img--fa {
   width: auto;
 }
 
-@media (max-width: 750px) {
+.partition--img {
+  background: url("/img/code.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.partition--content {
+  background-color: $s-color-dark;
+}
+
+@media (max-width: 1132px) {
   .main {
     flex-direction: column;
   }
