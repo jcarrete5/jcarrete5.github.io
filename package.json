@@ -22,7 +22,8 @@
   "homepage": "https://github.com/jcarrete5/jcarrete5.github.io#readme",
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.1",
+    "minimist": ">=1.2.3"
   },
   "dependencies": {}
 }
